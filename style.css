@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    background-color: rgb(55, 158, 86);
+    text-align: center;
+    padding: 20px;
+}
+li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+header{
+    background-image:url('imag/lebanon.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+    padding-top: 200px;
+    text-align: center;
+    
+}
+
+header h1 {
+    color:aliceblue;
+    background-color: rgba(98, 214, 98, 0.507);
+    text-align: center;
+    display: inline;
+    padding-top: 5px;
+    
+}
+.feature h1{
+    text-align: center;
+    
+}
+.feature:hover{
+    box-shadow: 3px 3px 3px rgb(88, 207, 98);
+    transform: translateX(5);
+    cursor: pointer;
+    background-color: #647c6b;
+}
+.features {
+    margin-top: 50px;
+    text-align: center;
+}
+.all-features{
+    margin-top: 30px;
+    display: flex;
+}
+
+.feature {
+    background-color: #eee;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: all 0,2s;
+    width: 33%;
+
+}
+
+.feature i {
+    color: red;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.features p{
+    color: rgb(141, 179, 179);
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.About-me{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    padding-top: 100px;
+}
+.About-me h2{
+    font-size: 40px;
+    color: rgb(21, 185, 131);
+    margin-bottom:30px ;
+    
+}
+.About-me p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.images .image{
+    width: 30%;
+    border: 1px solid #eee;
+    background-color: #e6e2e2;
+    border-radius: 15px;
+}
+.images .image img{
+    width: 100%; 
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-me{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+.contact-me h2{
+    font-size: 40px;
+    color: rgb(21, 185, 131);
+    margin-bottom:30px ;
+
+}
+
+.About-me p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+
+}
+
+.contact-me .contact-form{
+    width: 80%;
+    margin: auto;
+    background-color: #eee;
+    padding: 50px;
+    border-radius: 15px;
+}
+.form-input input{
+    width: 70%;
+    height: 25px;
+    border: 1px solid rgb(80, 64, 64);
+    border-radius: 10px;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 30px;
+    transition:all 0.5s;
+}
+
+.form-input input:focus{
+    width: 72%;
+    border: red;
+
+}
+
+.form-input textarea{
+    width: 70%;
+    border: 1px solid rgb(80, 64, 64);
+    border-radius: 10px;
+    outline: none;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.send{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(192, 93, 93);
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid red;
+    font-size: 20px;
+    cursor: pointer;
+}
+.send:hover{
+    background-color: red;
+    width: 230px;
+}
+
+footer{
+    background-color: black;
+    padding: 70px;
+    color: wheat;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+footer p{
+    font-size: 17px;
+}
+
+footer h3{
+    padding-bottom: 20px;
+}
